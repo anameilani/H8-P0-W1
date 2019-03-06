@@ -1,0 +1,52 @@
+1. Newton Second Law
+---------------------------
+STORE "gaya" with any value
+STORE "massa" with any value
+STORE "percepatan" with any value
+
+	CALCULATE "massa" multiple by "percepatan"
+		SET "gaya" value witha calculation result
+		
+		DISPLAY "gaya"
+
+
+
+2. Tahun Kabisat
+----------------------------
+STORE "tahun" with any value
+
+	IF ("tahun" div by 4 equals 0 AND "tahun" div by 100 not equals 0) OR
+	   ("tahun" div by 4 equals 0 AND "tahun" div by 100 equals 0 AND "tahun" div by 400 equals 0)
+
+		DISPLAY "tahun"+" adalah tahun kabisat"
+
+
+
+3. Laundry
+---------------------------
+STORE "cucian" with 1
+
+	WHILE "cucian" <=20
+		ADD cucian by 1
+
+	IF "cucian" equals to 20
+		DISPLAY "nyalakan mesin cuci" 
+	ELSE
+		DISPLAY "belum penuh"
+
+
+
+4. Periksa Kuku
+---------------------------
+STORE "siswa" with 1
+STORE "kuku" with any value
+STORE "panjang" with 1
+
+	WHILE "siswa" <=40
+		ADD siswa by 1
+	IF "kuku" equals to "panjang"
+		DO "hukum"
+	ELSE
+		DO "lanjut periksa"
+	
+
